@@ -60,7 +60,6 @@ h6 {
   max-width: 1170px;
   margin: 0 auto;
   display: flex;
-  background-color: maroon;
 }
 
 .containerz {
@@ -205,4 +204,19 @@ nav {
 
 .home-title {
   font-size: 5rem;
+}
+
+/* === [ ABOUT ] === */
+
+
+
+
+/* === [ SKILLS ] === */
+
+.progress {
+  border: 1px solid rgba(0,0,0,0.3);
+}
+
+.progress-bar {
+  border-bottom-right-radius: 5px;
 }

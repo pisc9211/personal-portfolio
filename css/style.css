@@ -220,3 +220,52 @@ nav {
 .progress-bar {
   border-bottom-right-radius: 5px;
 }
+
+
+/* === [ EDUCATION ] === */
+
+.education-item-header {
+  border: 1px solid rgba(0,0,0,0.5);
+  margin-bottom: .5rem;
+  padding: 1.5rem 2.5rem;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  background: #F2F3F7;
+}
+
+.education-item-header a {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.education-item-header a:after {
+  font-family: "icomoon";
+  content: "\e115";
+  float: right;
+  color: rgba(0,0,0,0.7);
+  font-size: 1.5rem;
+}
+
+
+.education-item-header a.collapsed:after {
+  content: "\e114";
+}
+
+.collapse-content {
+  /* border: 1px solid rgba(0,0,0,0.5); */
+  margin-bottom: 1rem;
+  padding: 1.5rem 2.5rem;
+  letter-spacing: 1px;
+}
+
+.bullet:before {
+  content: "\2607";
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.bullet {
+  padding-left: 1rem;
+}

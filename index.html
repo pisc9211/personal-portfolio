@@ -43,40 +43,40 @@
             <span class="position"><a href="#">Software Developer</a> in NYC</span>
           </div>
 
-          <nav class="navbar">
+          <nav class="navbar" id="navbar">
             <ul class="navbar-list">
               <li class="navbar-list-items">
-                <a class="active navbar-item" href="#home" data-nav-section="home">Home</a>
+                <a class="active navbar-item" href="#" data-nav-section="home">Home</a>
               </li>
               <li class="navbar-list-items">
-                <a class="navbar-item" href="#about" data-nav-section="about">About</a>
+                <a class="navbar-item" href="#" data-nav-section="about">About</a>
               </li>
               <li class="navbar-list-items">
-                <a class="navbar-item" href="#skills" data-nav-section="skills">Skills</a>
+                <a class="navbar-item" href="#" data-nav-section="skills">Skills</a>
               </li>
               <li class="navbar-list-items">
-                <a class="navbar-item" href="#education" data-nav-section="education">Education</a>
+                <a class="navbar-item" href="#" data-nav-section="education">Education</a>
               </li>
               <li class="navbar-list-items">
-                <a class="navbar-item" href="#projects" data-nav-section="projects">Projects</a>
+                <a class="navbar-item" href="#" data-nav-section="projects">Projects</a>
               </li>
               <li class="navbar-list-items">
-                <a class="navbar-item" href="#experience" data-nav-section="experience">Experience</a>
+                <a class="navbar-item" href="#" data-nav-section="experience">Experience</a>
               </li>
-              <li class="navbar-list-items">
-                <a class="navbar-item" href="#concact" data-nav-section="contact">Contact</a>
-              </li>
+              <!-- <li class="navbar-list-items">
+                <a class="navbar-item" href="#act" data-nav-section="contact">Contact</a>
+              </li> -->
             </ul>
           </nav>
 
           <footer class="colorlib-footer">
-            <p><small>&copy;Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br> Made with <i class="icon-heart" aria-hidden="true"></i> by Paul Chung
+            <p><small>&copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br> Made with <i class="icon-heart" aria-hidden="true"></i> by Paul Chung
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> </small></p>
             <ul class="footer-list">
-              <li class="footer-list-item"><a href="#"><i class="icon-facebook2"></i></a></li>
-              <li class="footer-list-item"><a href="#"><i class="icon-twitter2"></i></a></li>
-              <li class="footer-list-item"><a href="#"><i class="icon-github"></i></a></li>
-              <li class="footer-list-item"><a href="#"><i class="icon-linkedin2"></i></a></li>
+              <!-- <li class="footer-list-item"><a href="#"><i class="icon-facebook2"></i></a></li>
+              <li class="footer-list-item"><a href="#"><i class="icon-twitter2"></i></a></li> -->
+              <li class="footer-list-item"><a href="https://github.com/pisc9211"><i class="icon-github"></i></a></li>
+              <li class="footer-list-item"><a href="https://www.linkedin.com/in/paulchung510"><i class="icon-linkedin2"></i></a></li>
             </ul>
 			    </footer>
         </div>
@@ -89,7 +89,7 @@
             <div>
               <h1 class="home-title">Hi! <br>I'm Paul</h1>
               <h2 class="home-secondary">I love creating new things!</h2>
-              <p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
+              <p><a class="btn btn-primary btn-learn btn-download">Download CV <i class="icon-download4"></i></a></p>
             </div>
           </div>
         </section>
@@ -102,7 +102,6 @@
               <p><strong>Hi I'm Paul Chung</strong>. I am an aspiring software developer based in NYC. Coming from a non-traditional background (biology degree), I have come to love coding and development enough to change careers. Initally self-taught, I learned the basics of JavaScript/HTML/CSS using the free resources online. Recently, I attended a <a href="https://www2.cuny.edu/about/administration/offices/workforce/cuny-techworks/" target="_blank">government funded program</a> where I learned the technology and tools needed for a software developer.</p>
               <p>I have an interest in front-end development and creating SPA's using technologies like React and HTML/CSS. I am a huge JavaScript enthusiast and enjoy clean and concise code.</p>
               <p>Being based in New York City, I thrive in a fast-paced environment and do not shy away from challenges. I enjoy watching and playing basketball and tennis, can live off of pizza, and love to relax with a hot cup of coffee. I am an optimist, a hard-worker, and a constant learner looking to take on the world one challenge at a time.</p>
-              <p class="banner">I am currently looking for a front-end developer position.</p>
             </div>
           </div>
         </section>
@@ -217,51 +216,82 @@
               <h2 class="heading-title">recent projects</h2>
               <div class="projects-container row">
                 <div class="col-lg-6 col-md-12 col-12">
-                  <div class="project-item-container project-1">
+                  <div class="project-item-container project-5">
                     <div class="project-item-content">
-                      <a href="images/expertize.jpg" data-fancybox="project-1" data-caption="testing if workssss">
-                        <p>hellllo</p>
+                      <a class="project-icon project-info" href="images/tabinate.png" data-fancybox="project-5" data-caption="testing if workssss">
+                        <i class="icon-info-large"></i>
                       </a>
-                    
-                      <a style="display:none" href="images/maverick.png" data-fancybox="project-1"></a>
+                      <a class="project-icon project-github" href="https://github.com/pisc9211/tabinate">
+                        <i class="icon-github"></i>
+                      </a>
+                      <a class="project-icon project-code" href="https://tabinate.herokuapp.com/">
+                        <i class="icon-code"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
+                
                 <div class="col-lg-6 col-md-12 col-12">
                   <div class="project-item-container project-2">
                     <div class="project-item-content">
-
+                      <a class="project-icon project-info" href="images/eventswipe.png" data-fancybox="project-2" data-caption="An event searching web application that allows users to input date, area, and category. The application with then serve up events matching those criteria. Users are able to save events to their account for later view.">
+                        <i class="icon-info-large"></i>
+                      </a>
+                      <a class="project-icon project-github" href="https://github.com/EventSwipe/eventSwipe">
+                        <i class="icon-github"></i>
+                      </a>
+                      <a class="project-icon project-code" href="https://hreventswipe.herokuapp.com/">
+                        <i class="icon-code"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
                   <div class="project-item-container project-3">
                     <div class="project-item-content">
-
+                      <a class="project-icon project-info" href="images/maverick.jpg" data-fancybox="project-3" data-caption="A personal stock portfolio application that allows user to input owned stocks. The application will visualize the owned stock data. In addition, related news articles will be searched and displayed.">
+                        <i class="icon-info-large"></i>
+                      </a>
+                      <a class="project-icon project-github" href="https://github.com/GreyFinancial/MaverickStockPortfolio">
+                        <i class="icon-github"></i>
+                      </a>
+                      <a class="project-icon project-code" href="https://maverickstockportfolio.herokuapp.com/">
+                        <i class="icon-code"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 project-container">
+                  <div class="project-item-container project-1">
+                    <div class="project-item-content">
+                      <a class="project-icon project-info" href="images/expertize.jpg" data-fancybox="project-1" data-caption="A platform aimed at young professionals. Users can either post questions or answer questions. The application connects the two users for 5 - 30 minutes of chat or video where the expert can answer the pupil's question.">
+                      <i class="icon-info-large"></i>
+                      </a>
+                      <a class="project-icon project-github" href="https://github.com/ExpertizeInc/Expertize">
+                        <i class="icon-github"></i>
+                      </a>
+                      <a class="project-icon project-code" href="https://github.com/ExpertizeInc/Expertize">
+                        <i class="icon-code"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
                   <div class="project-item-container project-4">
                     <div class="project-item-content">
-
+                      <a class="project-icon project-info" href="images/trivia.png" data-fancybox="project-4" data-caption="Website where you can answer random questions and try to get on the leaderboard. This was created using React, Node, Express, and MongoDB.">
+                        <i class="icon-info-large"></i>
+                      </a>
+                      <a class="project-icon project-github" href="#">
+                        <i class="icon-github"></i>
+                      </a>
+                      <a class="project-icon project-code" href="http://pc-trivia.herokuapp.com/">
+                        <i class="icon-code"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-12">
-                  <div class="project-item-container project-5">
-                    <div class="project-item-content">
-
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-12">
-                  <div class="project-item-container project-6">
-                    <div class="project-item-content">
-
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -272,28 +302,63 @@
             <div class="section-content">
               <span class="heading-meta">experience</span>
               <h2 class="heading-title">work experience</h2>
-            </div>
+              <p class="experience-insert">Although I do not have professional experience as a software developer, I have learned different skills needed for the job. <strong>Communications and interpersonal skills</strong> are paramount to a software developer and I have gained these valuable skills during my past experiences.</p>
+              <div class="education-container row" id="accordion">
+                <div class="accordion col-12" id="accordion">
+                  <div class="education-item">
+                    <div class="education-item-header" id="qcc" data-toggle="collapse" data-target="#ptaCollapse" aria-expanded="true" data-parent="#accordion">
+                      <a class="" role="button" data-toggle="collapse" data-target="#ptaCollapse" aria-expanded="true" aria-controls="ptaCollapse" data-parent="#accordion">Excel Orthopedic Physical Therapy</a> 
+                    </div>
+                    <div id="ptaCollapse" class="collapse collapse-content show" aria-labelledby="pta">
+                      <h4>Physical Therapy Aide</h4>
+                      <div class="education-item-body row">
+                        <p class="col-6">Fort Lee, NJ</p>
+                        <p class="col-6">9/2016 &mdash; 9/2018</p>
+                        <p class="col-12 bullet">Worked in a <strong>fast paced</strong> environment in a <strong>team</strong> of 5-7 aides to manage therapeutic exercise regiment of multiple patients.</p>
+                        <p class="col-12 bullet">Created and nurtured an <strong>interpersonal relationship with patients</strong> to support and aide in rehabilitation process.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="education-item">
+                    <div class="education-item-header" id="rutgers" data-toggle="collapse" data-target="#rutgersCollapse" data-parent="#accordion">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-target="#rutgersCollapse" aria-expanded="false" aria-controls="rutgersCollapse" data-parent="#accordion">Benjamin's Pharmacy</a> 
+                    </div>
+                    <div id="rutgersCollapse" class="collapse collapse-content" aria-labelledby="rutgers">
+                      <h4>Lead Pharmacy Technician</h4>
+                      <div class="education-item-body row">
+                        <p class="col-6">Palisades Park, NJ</p>
+                        <p class="col-6">9/2014 &mdash; 8/2016</p>
+                        <p class="col-12 bullet">Assisted in transfer to new pharmacy management system, swiftly <strong>learning use of new system</strong> and serving as lead trainer for rest of staff.</p>
+                        <p class="col-12 bullet"><strong>Trained</strong> new technicians, ensuring all the standards of the pharmacy were fully met.</p>
+                        <p class="col-12 bullet">Oversaw inventory logistics, implementing a process to ensure 100% stock availability while decreasing overstocking.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </section>
 
-        <section id="contact" class="contact-section" data-section="contact">
+        <!-- <section id="contact" class="contact-section" data-section="contact">
           <div class="containerz">
             <div class="section-content">
               <span class="heading-meta">get in touch</span>
               <h2 class="heading-title">contact</h2>
+    
             </div>
           </div>
-        </section>
+        </section> -->
       </main>
     </div>
   </div>
-  <!-- <script src="js/jquery.min.js" type="text/javascript"></script>
-  <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-  <script src="js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="js/jquery.waypoints.min.js" type="text/javascript"></script> -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
 </body> 
 </html>

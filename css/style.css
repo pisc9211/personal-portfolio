@@ -39,6 +39,7 @@ a:focus {
 
 p {
   margin-bottom: 1.5em;
+  font-size: 1.5rem;
 }
 
 h1,
@@ -53,6 +54,10 @@ h6 {
   margin: 0 0 30px 0;
 }
 
+.section-content p {
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+}
 
 /* === [ LAYOUT ] === */
 
@@ -183,6 +188,7 @@ nav {
 .footer-list-item {
   display: inline-block;
   padding: 0 .5rem;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -232,8 +238,11 @@ nav {
   font-size: 5rem;
 }
 
-/* === [ ABOUT ] === */
+.btn-download {
+  margin-top: 3rem;
+}
 
+/* === [ ABOUT ] === */
 
 
 
@@ -257,6 +266,13 @@ nav {
   width: 100%;
   color: rgba(0, 0, 0, 0.7);
   background: #F2F3F7;
+}
+
+.education-item-header:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 6px 6px 20px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 20px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 20px 1px rgba(0, 0, 0, 0.75);
 }
 
 .education-item-header a {
@@ -338,4 +354,58 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.project-item-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  overflow: hidden;
+}
+
+.project-item-content:hover {
+  opacity: 1;
+}
+
+.project-icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: #2c98f0;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  color: #F2F3F7;
+  border-radius: 3px;
+}
+
+.project-info {
+  transform: translateX(-300px);
+}
+
+.project-github {
+  transform: translateY(-300px);
+}
+
+.project-code {
+  transform: translateX(300px);
+}
+
+.project-item-content:hover .project-info,
+.project-item-content:hover .project-code,
+.project-item-content:hover .project-github {
+  transform: translate(0px, 0px);
+  color: #fff;
+}
+
+
+/* === [ EXPERIENCE ] === */
+
+.experience-insert {
+  margin-bottom: 5rem;
 }
